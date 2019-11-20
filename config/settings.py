@@ -45,6 +45,10 @@ PROJECT_APPS = [
     "core.apps.CoreConfig",
     "users.apps.UsersConfig",
     "rooms.apps.RoomsConfig",
+    "reviews.apps.ReviewsConfig",
+    "reservations.apps.ReservationsConfig",
+    "lists.apps.ListsConfig",
+    "conversations.apps.ConversationsConfig",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APPS
@@ -113,6 +117,7 @@ TIME_ZONE = "Asia/Seoul"
 
 USE_I18N = True
 
+# 사이트를 번역한다면, 이쪽에서 실행
 USE_L10N = True
 
 USE_TZ = True
