@@ -5,7 +5,7 @@ from . import models
 
 @admin.register(models.User)
 class CustomUserAdmin(UserAdmin):
-
+    # admin패널 작성
     """Custom User Admin"""
 
     fieldsets = UserAdmin.fieldsets + (
